@@ -1,0 +1,142 @@
+html, * {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: white;
+}
+
+div.body-content{
+    margin-bottom: 40px;
+  }
+
+#contorno
+{
+    border: solid;
+    border-color:#a9a8a2;
+    border-radius: 5%;
+    width: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: #ff1a75;
+}
+
+.conteiner{
+   margin:auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+input
+{
+    display:grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-bottom: 4%;
+    border: none;
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+    border: solid;
+    border-color:#a9a8a2;
+}
+
+button
+{
+    margin-left:2.4%;
+    margin-right: 0.9%;
+    font-weight: 700;
+    background-color: white;
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 3px;
+    border: solid;
+    border-color: #a9a8a2;
+}
+
+#botões{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+#divisao
+{
+    color:#7EFF86;
+}
+#divisao:hover {
+    border-color:#7EFF86;
+    border-radius: 5px;
+    transition: 1.0s;
+  }
+  #multiplicaçao
+  {
+      color: #FFE925;
+     
+  }
+  #multiplicaçao:hover {
+    border-color: #FFE925;
+    border-radius: 5px;
+    transition: 1.0s;
+  }
+    #soma
+    {
+        color: #FF2379;
+
+    }
+    #soma:hover {
+        border-color: #ff1a75;
+        border-radius: 5px;
+        transition: 1.0s;
+      }
+    #subtraçao
+    {
+        color: #7E9EFF;
+
+    }
+    #subtraçao:hover {
+        border-color:#7E9EFF;
+        border-radius: 5px;
+        transition: 1.0s;
+      }
+      
+#resultado
+{
+    display:grid;
+    justify-content: center; 
+    text-align: center;
+
+}
+span
+{
+    background-color: white;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 5px;
+    border: solid;
+    border-color: #a9a8a2;
+}
+
+#decoração
+{
+display: flex;
+bottom: 0;
+left: 0;
+position: fixed;
+width: 100%;
+}
